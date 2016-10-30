@@ -1,0 +1,22 @@
+
+{
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+       "jsx": true,
+       "generators": true,
+       "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "eqeqeq": [2, "smart"],
+    "comma-dangle": [2, "never"],
+    "no-use-before-define": [2, "nofunc"],
+    "arrow-body-style": [0],
+    "react/jsx-first-prop-new-line": [0],
+    "react/jsx-closing-bracket-location": [0],
+    "max-len": [0]
+  }
+}
